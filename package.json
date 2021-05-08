@@ -1,0 +1,25 @@
+{
+  "name": "auth_express",
+  "version": "1.0.0",
+  "description": "Test auth api",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mongo",
+    "JWT"
+  ],
+  "author": "Dmitri Gaydamovich<gaydamovich1992@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7"
+  }
+}
